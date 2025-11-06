@@ -64,9 +64,10 @@ export default function ProjectDetail() {
   }
 
   return (
-    <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-      <button onClick={goBackToProjects} className="text-blue-600 hover:text-blue-800 flex items-center mb-6">
-         <i className="fa-solid fa-arrow-left-long mr-2 text-sm"></i> Back to Projects
+    <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-16 ">
+      <button onClick={goBackToProjects} className="flex items-center mb-6 hover:shadow-xl overflow-hidden transition-all duration-200 py-3 px-4 hover:bg-blue-600 bg-blue-500 rounded-lg">
+         <i className="fa-solid fa-arrow-left-long mr-2 text-sm text-white"></i> 
+         <span className="text-white">Back to Projects</span>
       </button>
 
       <div className="bg-white rounded-xl shadow-lg overflow-hidden">

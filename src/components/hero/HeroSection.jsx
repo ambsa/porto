@@ -1,7 +1,7 @@
-const HeroSection = () => {
+const HeroSection = ({id}) => {
   return (
-    <section id="home" className="min-h-screen flex items-center md:py-30">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <section id={id} className="min-h-screen flex items-center py-30 md:py-30">
+      <div className="max-w-7xl mx-auto px-4 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 md:gap-8 items-center">
           {/* Bagian Teks */}
           <div className="order-2 lg:order-1 text-center lg:text-left">
